@@ -1,0 +1,3 @@
+[submodule "fi"]
+	path = fi
+	url = ssh://bitbucket.etor/gikmx/fi.git
