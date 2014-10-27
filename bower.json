@@ -17,5 +17,8 @@
     "node_modules",
     "app/static/components"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "foundation": "~5.4.6",
+    "swiper": "~2.7.0"
+  }
 }
