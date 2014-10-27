@@ -1,0 +1,2 @@
+require './fi'
+ﬁ.listen()

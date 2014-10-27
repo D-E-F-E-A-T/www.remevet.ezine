@@ -1,0 +1,79 @@
+@import 'styles/media'
+
+.font-header
+	font-weight:bold
+	text-shadow: 1px 1px 2px black
+
+	&.font-header-0
+		font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif
+	&.font-header-1
+		font-family: Impact, Charcoal, sans-serif
+	&.font-header-2
+		font-family: Tahoma, Geneva, sans-serif
+	&.font-header-3
+		font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif
+	&.font-header-4
+		font-family: 'Arial Black', Gadget, sans-serif
+	&.font-header-5
+		font-family: 'Times New Roman', Times, serif
+
+	& *
+		font-weight:inherit
+		font-family:inherit
+
+html,body
+	height:100%
+	width:100%
+
+.swiper-container
+.swiper-slide
+	width  : 100%
+	height : 100%
+
+.row-full
+	max-width: 100% !important
+
+.magazine-container
+	position:relative
+	width  : 100%
+	height : 100%
+
+	& > main
+		height: inherit
+		position:relative
+		background              : transparent no-repeat top center
+		-webkit-background-size : cover
+		-moz-background-size    : cover
+		-o-background-size      : cover
+		background-size         : cover
+
+	& footer
+		position      : absolute
+		bottom        : 0
+		right         : 0
+		margin-right  : 1em
+		margin-bottom : 1em
+
+		& *
+			color: white
+			margin:0
+			padding:0
+
+	&.magazine-cover
+
+		header
+			height     : 20%
+			position   : relative
+			background : white
+			width      : inherit
+			background: white no-repeat left center
+			background-image: url('http://tryimg.com/5/peque.png')
+			background-size: contain
+			border: 1em solid white
+		main
+			height: 80%
+
+		footer
+			&
+			& *
+				font-weight:bold

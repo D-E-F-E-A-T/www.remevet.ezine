@@ -1,0 +1,42 @@
+$media-arrows = 'up' 'only'
+$media-sizes  = 'small'    'medium'        'large'         'xlarge'         'xxlarge'
+$media-ranges = (0em 40em) (40.063em 64em) (64.063em 90em) (90.063em 120em) (120.063em)
+$media-modes  = false 'landscape' 'portrait'
+$media-verbs  = ('show' block) ('hide' none)
+$media-alls   = ''
+
+for $media-verb,v in $media-verbs
+	for $media-mode,m in $media-modes
+		for $media-size,s in $media-sizes
+			for $media-arrow,a in $media-arrows
+				if $media-mode
+					$media-temp = '-' + $media-mode
+				else
+					$media-temp = ''
+				$media-alls += '.' + $media-verb[0] + '-for' + $media-temp + '-' + $media-size + '-' + $media-arrow + ','
+
+{$media-alls}
+	display: none !important
+
+for $media-verb,v in $media-verbs
+	for $media-mode,m in $media-modes
+		for $media-size,s in $media-sizes
+			for $media-arrow,a in $media-arrows
+
+				$media = 'only screen'
+
+				if $media-mode
+					$media += ' and (orientation: ' + $media-mode + ')'
+					$media-temp = '-' + $media-mode
+				else
+					$media-temp = ''
+
+				$media += ' and (min-width:' + $media-ranges[s][0] + ')'
+
+				if a && $media-ranges[s][1]
+					$media += ' and (max-width:' + $media-ranges[s][1] + ')'
+
+				@media $media
+					.{$media-verb[0]}-for{$media-temp}-{$media-size}-{$media-arrow}
+						display: $media-verb[1] !important
+
