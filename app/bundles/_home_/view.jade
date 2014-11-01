@@ -18,25 +18,29 @@
 	.swiper-slide(style="overflow:scroll !important")
 
 		.magazine-article-cover.magazine-container
-			main.show-for-landscape-small-only(style="background-image:url(//lorempixel.com/400/140/animals)")
-			main.show-for-landscape-medium-only(style="background-image:url(//lorempixel.com/640/480/animals)")
-			main.show-for-landscape-large-up(style="background-image:url(//lorempixel.com/1280/960/animals)")
-			main.show-for-portrait-small-only(style="background-image:url(//lorempixel.com/240/320/animals)")
-			main.show-for-portrait-medium-only(style="background-image:url(//lorempixel.com/480/640/animals)")
-			main.show-for-portrait-large-up(style="background-image:url(//lorempixel.com/960/1280/animals)")
-			- var rand = Math.floor(Math.random()*6)
-			footer.font-header(class='font-header-'+rand)
-				h2 Desastres, fauna silvestre y veterinarios ¿cómo estar preparados?
-				.row: h4.subheader.right MV Mark Lloyd 
-
-		//- pagina1
-
-		.magazine-article-cover.magazine-container
 			.row.hide-for-portrait
 				.small-12.columns
+					br
+					br
 					h2.left Revisión Médica <br> <hr>
 					h2.left Fauna Silvestre <hr> 
 				.small-6.columns
+					br
+					br
+					br
+					br
+					br
+					br
+					br
+					br
+					br
+					br
+					br
+					br
+					br
+				
+			
+
 
 					center
 						img.logo(src="static/video/remevet.png", alt="Dr.", width="100%")
@@ -121,43 +125,56 @@
 						| Queda estrictamente prohibida la reproducción total o parcial de los contenidos e 
 						| imágenes de la publicación si previa autorización de REMEVET S. de R.L. de C.V.
 				
+	.swiper-slide(style="overflow:scroll !important")
 
-		
+		.magazine-article-cover.magazine-container
+			main.show-for-landscape-small-only(style="background-image:url(//lorempixel.com/400/140/animals)")
+			main.show-for-landscape-medium-only(style="background-image:url(//lorempixel.com/640/480/animals)")
+			main.show-for-landscape-large-up(style="background-image:url(//lorempixel.com/1280/960/animals)")
+			main.show-for-portrait-small-only(style="background-image:url(//lorempixel.com/240/320/animals)")
+			main.show-for-portrait-medium-only(style="background-image:url(//lorempixel.com/480/640/animals)")
+			main.show-for-portrait-large-up(style="background-image:url(//lorempixel.com/960/1280/animals)")
+			- var rand = Math.floor(Math.random()*6)
+			footer.font-header(class='font-header-'+rand)
+				h2 Desastres, fauna silvestre y veterinarios ¿cómo estar preparados?
+				.row: h4.subheader.right MV Mark Lloyd 
+
+			//- pagina1
+
+
 			.row.hide-for-portrait
 				.small-12.columns
-					h2.left Desastres, fauna silvestre y veterinarios ¿cómo estar preparados? <hr>
+					h2.left  <hr>
 				.small-6.columns
 					center
-						img(src="static/video/drw.png", alt="Dr.", width="80%")
+
+		
+						<ul class="example-orbit-content" data-orbit>
+						<li data-orbit-slide="headline-1">
+						<div>
+						img(src="static/video/drw.png", width="70%")
+						</div>
+						</li>
+						</ul>
+
 					
 					br
+					br
 
-					p
-						| Management, Learning and Logistics; 
-						br
-						| Diversified Veterinary Medicine, LLC
-						br
-						| 
-						| Private Consultant Services
-						br
-						| Institutional Disaster Preparation and Response
-						br
-						| Wildlife Conservation,
-						br
-						| Management and Medicine
-						br
-						| Georgia, USA
-
-
-				.small-6.columns
-
-
-					
 					p 	
 						| El Dr. Lloyd fue presidente de la Asociación Americana de Veterinarios de Anfibios y Reptiles 
 						| (ARAV) y ha sido un autor prolífico de diferentes artículos y capítulos de libros relacionados 
 						| con medicina de fauna silvestre.
 
+
+					
+
+
+				.small-6.columns
+
+
+					
+					
 					p
 						| La experiencia y entrenamiento profesional del Dr. Lloyd incluye Animales en Situaciones de Emergencia y Desastre, 
 						| habiendo sido Comandante del Equipo de Asistencia Veterinaria (VMAT-1) dentro del Departamento de Seguridad Nacional 
@@ -190,8 +207,16 @@
 
 					<hr>
 
+						
 					center
-						img(src="static/video/drw.png", alt="Dr.", width="80%")
+						<ul class="example-orbit-content" data-orbit>
+						<li data-orbit-slide="headline-1">
+						<div>
+						img(src="static/video/drw.png", width="80%")
+						</div>
+						</li>
+						</ul>
+
 
 					br 
 
@@ -1095,7 +1120,6 @@
 						<li data-orbit-slide="headline-1">
 						<div>
 						video(src="https://s3-us-west-1.amazonaws.com/uat.video/resources/welcome/welcome.mp4", alt="" controls autoplay width="70%")
-						<h6>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eos tenetur soluta ullam id, assumenda cum iure repudiandae reprehenderit voluptatem quasi odit sapiente ducimus, quae officia quam suscipit, eveniet fugit.</h6>
 						</div>
 						</li>
 						</ul>
@@ -1253,6 +1277,33 @@
 
 				.small-12.columns
 
+					<hr>
+
+					center
+
+						h4 CUÁL ES TU DIAGNÓSTICO DESPUÉS DE VER LA RESEÑA Y EL ESTUDIO RADIOGRÁFICO
+
+					
+
+					br
+					br
+					center
+						ul
+							li
+								input#b_5.styled(type='checkbox')
+								label.styled(for='b_5') Infección de las vías urinarias.
+							li
+								input#b_6.styled(type='checkbox')
+								label.styled(for='b_6') Urolitiasis.
+							li
+								input#b_7.styled(type='checkbox')
+								label.styled(for='b_7') Tumor de células transicionales.
+							li
+								input#b_8.styled1(type='checkbox')
+								label.styled1(for='b_8') Traumatismo.
+
+
+
 				.small-12.columns
 
 			.row.hide-for-portrait
@@ -1263,34 +1314,36 @@
 
 					center
 
-						h4 Contesta la pregunta correcta
+						h4 CUÁL ES TU DIAGNÓSTICO DESPUÉS DE VER LA RESEÑA Y EL ESTUDIO RADIOGRÁFICO
 
+					
+
+					br
+					br
 					center
+						ul
+							li
+								input#b_1.styled(type='checkbox')
+								label.styled(for='b_1') Infección de las vías urinarias.
+							li
+								input#b_2.styled(type='checkbox')
+								label.styled(for='b_2') Urolitiasis.
+							li
+								input#b_4.styled(type='checkbox')
+								label.styled(for='b_4') Tumor de células transicionales.
+							li
+								input#b_3.styled1(type='checkbox')
+								label.styled1(for='b_3') Traumatismo.
 
-						br
-						br
 
-						<ul>
-						<li>
-						<input type="checkbox" class="styled" id="b_1">
-						<label class="styled" for="b_1">Respuesta 1</label>
-						</li>
 
-						<li>
-						<input type="checkbox" class="styled" id="b_2">
-						<label class="styled" for="b_2">Respuesta 2</label>
-						</li>
 
-						<li>
-						<input type="checkbox" class="styled" id="b_3">
-						<label class="styled" for="b_3">Respuesta 3</label>
-						</li>
+					
 
-						</ul>
-
+					
 				.small-6.columns
 
-					<hr>
+					
 
 
 
