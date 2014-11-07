@@ -3,13 +3,16 @@
 	.swiper-slide
 
 		.magazine-cover.magazine-container
+			
 			header
+			<a href="#" id="cb1" class=" button next"> > </a>
 			main.show-for-landscape-small-only(style="background-image:url(static/images/P_T1.jpg)")
 			main.show-for-landscape-medium-only(style="background-image:url(static/images/P_T2.jpg)")
 			main.show-for-landscape-large-up(style="background-image:url(static/images/P_T2.jpg)")
 			main.show-for-portrait-small-only(style="background-image:url(static/images/P_T6.jpg)")
 			main.show-for-portrait-medium-only(style="background-image:url(static/images/P_T5.jpg)")
 			main.show-for-portrait-large-up(style="background-image:url(static/images/P_T2.jpg)")
+			
 			footer
 				h3.subheader Año 6
 				h3 NÚMERO 21
@@ -42,7 +45,7 @@
 
 					<a href="#" data-reveal-id="videoModal" class="radius button" style="width: 50%; height: 25%; margin-left: 25%; margin-right: 25%";>Bienvenido</a>
 
-					<div id="videoModal" class="reveal-modal large" data-reveal="" style="display: none; display: block; top: 10px; opacity: 0.6;">
+					<div id="videoModal" class="reveal-modal large" data-reveal="" style="display: none; display: block; top: 10px; opacity: 0;">
 					<h2>Bienvenido a REMEVET</h2>
 					<div class="flex-video widescreen vimeo" style="display: block;">
 					<iframe width="800" height="600" src="http://www.youtube-nocookie.com/embed/VyRvESk9FSo?rel=0" frameborder="0" allowfullscreen="true" data-src="http://www.youtube-nocookie.com/embed/VyRvESk9FSo?rel=0"></iframe>
@@ -74,7 +77,17 @@
 
 						a(href='mailto:contacto@remevet.com') contacto@remevet.com
 						br
-					
+
+					.large.medium-6.small-12.columns
+
+						<a href="#" id="boton1" class="button prev" style="width: 90%; height: 25%; margin-left: 5%; margin-right: 5%";>Preview</a>
+
+
+					.large.medium-6.small-12.columns
+
+						<a href="#" id="boton1" class="button next" style="width: 90%; height: 25%; margin-left: 5%; margin-right: 5%";>Next</a>
+
+				.large.medium-6.small-12.columns
 
 					blockquote
 							p.izq
@@ -105,9 +118,11 @@
 					br
 
 
+
+
 					<a href="#" data-reveal-id="videoModal" class="radius button" style="width: 90%; height: 25%; margin-left: 5%; margin-right: 5%";>Bienvenido</a>
 
-					<div id="videoModal" class="reveal-modal large" data-reveal="" style="display: none; display: block; top: 10px; opacity: 0.6;">
+					<div id="videoModal" class="reveal-modal large" data-reveal="" style="display: none; display: block; top: 10px; opacity: 0;">
 					<h2>Bienvenido a REMEVET</h2>
 					<div class="flex-video widescreen vimeo" style="display: block;">
 					<iframe width="800" height="600" src="http://www.youtube-nocookie.com/embed/VyRvESk9FSo?rel=0" frameborder="0" allowfullscreen="true" data-src="http://www.youtube-nocookie.com/embed/VyRvESk9FSo?rel=0"></iframe>
@@ -115,6 +130,10 @@
 
 					<a class="close-reveal-modal">&#215;</a>
 					</div>
+
+					<a href="#" id="boton1" class="button next" style="width: 90%; height: 25%; margin-left: 5%; margin-right: 5%";>Next</a>
+					<a href="#" id="boton1" class="button prev" style="width: 90%; height: 25%; margin-left: 5%; margin-right: 5%";>Preview</a>
+
 
 
 				.small-12.columns
@@ -1673,6 +1692,9 @@
 				.large.medium-6.small-12.columns
 
 				.large.medium-6.small-12.columns
+
+		
+
 
 
 
