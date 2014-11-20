@@ -61,7 +61,7 @@
 				.large.medium-6.small-12.columns
 					strong Director
 						br
-						p MVZ Cert. Luis Fernando Martínez Cornejo
+						p MVZ Cert. Luis Fernando Martínez Cornejo´
 						strong Coordinación editorial
 						br
 						p Dra. Dulce Ma. Brousset H-J
@@ -1655,51 +1655,588 @@
 
 
 
+	.swiper-slide(style="overflow:scroll !important")
 
-				//-comienza pagina 13
-
-			.row.hide-for-landscape
-
-				.small-12.columns
-
-				.small-12.columns
-
-
+		.magazine-article-cover.magazine-container
 			.row.hide-for-portrait
 
-				.large.medium-6.small-12.columns
+				.small-12.columns
 
-
+					center					
+						img(src="static/video/anuncio1.jpg", alt="", width="auto")
+								
 					
 				
 
+			.row.hide-for-landscape
+
+				.small-12.columns
+
+					center
+						ul.example-orbit-content(data-orbit='data-orbit')
+							li(data-orbit-slide='headline-1')
+								div
+								img(src="static/video/anuncio1.jpg", alt="", width="100%")
+								
+					
+
+
+
+
+
+	//-comienza nuevo articulo -----------------------------------------------------------------
+
+	.swiper-slide(style="overflow:scroll !important")
+
+		.magazine-article-cover.magazine-container
+			<a href="#" id="cb3" class=" button prev">&#60;</a>
+			main.show-for-landscape-small-only(style="background-image:url(static/images/A_T1.jpg)")
+			main.show-for-landscape-medium-only(style="background-image:url(static/images/A_T2.jpg)")
+			main.show-for-landscape-large-up(style="background-image:url(static/images/A_T3.jpg)")
+			main.show-for-portrait-small-only(style="background-image:url(static/images/A_T4.jpg)")
+			main.show-for-portrait-medium-only(style="background-image:url(static/images/A_T5.jpg)")
+			main.show-for-portrait-large-up(style="background-image:url(static/images/A_T6.jpg)")
+			- var rand = Math.floor(Math.random()*6)
+			footer.font-header(class='font-header-'+rand)
+				h2.tit Evaluación de la digestibilidad aparente de elementos minerales y su concentración en espinas de erizos pigmeos africanos alimentados con dos diferentes dietas.
+				.row: h4.subheader.right Articulo de Investigacion.
+
+
+			//- pagina1
+
+
+			.row.hide-for-portrait
+			
+				.large.medium-6.small-12.columns
+
+					<hr>
+					h2.left Autores:
+						br
+						br
+						ol
+							li GUTIERREZ OLVERA, C
+							li DUCOING WATTY, AM 
+							li COSIO CARPINTERO, KE
+							li GUTIERREZ CHAVEZ, P
+
+						br
+						p
+
+							| Los erizos pigmeos africanos (Atelerix albiventris) son pequeños mamíferos considerados animales de compañía no convencionales, 
+							| se caracterizan por ser animales nocturnos, territoriales, solitarios y sumamente activos en vida libre. 
+							| Debido a que poseen un tracto gastrointestinal simple (estómago pequeño, intestinos cortos y ausencia de ciego) se consideran carnívoros estrictos, 
+							| basando su alimentación en insectos, y consumiendo de forma esporádica frutas y verduras. (Figura 1)
+
 
 
 				.large.medium-6.small-12.columns
 
+					<hr>
+					
+					center
+						ul.example-orbit-content(data-orbit='data-orbit')
+							li(data-orbit-slide='headline-1')
+								div
+								img(src="static/video/foto25.jpg", alt="", width="100%")
+								.orbit-caption 
+												| Figura 1. Erizo pigmeo africano (Atelerix albiventris)
+
+
+					p 	
+						| Debido a la escasa existencia de alimentos especializados en el mercado, se ha tenido que recurrir al empleo de dietas alternativas 
+						| diseñadas para especies con perfiles nutricionales similares, por ejemplo, los gatos. 
+						| Teóricamente, los alimentos para gato son capaces de bridar un perfil adecuado de proteínas, lípidos, carbohidratos,  
+						| vitaminas y minerales, aunque esto depende en gran medida de la calidad y biodisponibilidad de los ingredientes utilizados en su elaboración.
 
 
 
-				//-comienza pagina 14
 
 			.row.hide-for-landscape
 
 				.small-12.columns
 
+
+					<hr>
+
+					h2.left Autores:
+						br
+						ol
+							li GUTIERREZ OLVERA, C
+							li DUCOING WATTY, AM 
+							li COSIO CARPINTERO, KE
+							li GUTIERREZ CHAVEZ, P
+
+						p
+							| Los erizos pigmeos africanos (Atelerix albiventris) son pequeños mamíferos considerados animales de compañía no convencionales, 
+							| se caracterizan por ser animales nocturnos, territoriales, solitarios y sumamente activos en vida libre. 
+							| Debido a que poseen un tracto gastrointestinal simple (estómago pequeño, intestinos cortos y ausencia de ciego) se consideran carnívoros estrictos, 
+							| basando su alimentación en insectos, y consumiendo de forma esporádica frutas y verduras. (Figura 1)
+
+
+
 				.small-12.columns
 
+					<hr>
+
+					
+					center
+						ul.example-orbit-content(data-orbit='data-orbit')
+							li(data-orbit-slide='headline-1')
+								div
+								img(src="static/video/foto25.jpg", alt="", width="100%")
+								.orbit-caption 
+												| Figura 1. Erizo pigmeo africano (Atelerix albiventris)
+
+
+					p 	
+						| Debido a la escasa existencia de alimentos especializados en el mercado, se ha tenido que recurrir al empleo de dietas alternativas 
+						| diseñadas para especies con perfiles nutricionales similares, por ejemplo, los gatos. 
+						| Teóricamente, los alimentos para gato son capaces de bridar un perfil adecuado de proteínas, lípidos, carbohidratos,  
+						| vitaminas y minerales, aunque esto depende en gran medida de la calidad y biodisponibilidad de los ingredientes utilizados en su elaboración.
+					
+  
+			//- comienza pagina 2
+   
+ 
+			.row.hide-for-landscape
+
+				.small-12.columns
+
+
+					<hr>
+
+						
+					p 
+
+						| Se han buscado diversas alternativas no invasivas para evaluar el estado nutricional de los animales, dentro de ellas, 
+						| el uso de pelo como un reflejo de la cinética de los elementos minerales. Al ser las espinas del erizo un tipo de pelo 
+						| modificado que se encuentra en constante crecimiento, podrían funcionar como una herramienta para evaluar excesos o deficiencias 
+						| de estos elementos aportados por la dieta.
+
+					p
+						| El presente estudio tuvo como objetivo determinar la digestibilidad aparente de elementos minerales así como su concentración en 
+						| las espinas de erizos pigmeos africanos, empleando como dietas base alimento formulado para insectívoros y alimento formulado para 
+						| gatos en crecimiento
+
+					p
+
+						| Se emplearon 6 erizos pigmeos africanos de 2 años de edad, clínicamente sanos. Se alojaron en jaulas individuales con medidas de 
+						| 60 x 32  x 30 cm. equipadas con, un plato de cerámica para la comida, un bebedero tipo tolva, cama biodegradable absorbente y ruedas 
+						| de ejercicio como parte del enriquecimiento ambiental. (Figura 2)
+
+					p
+						| Los animales se dividieron en dos grupos de forma aleatoria (grupo A y grupo B), para la realización de un estudio estadístico cruzado 
+						| tipo AB/BA. La fase de campo fue de 6 semanas, la primera semana consistió en el periodo de adaptación al nuevo alimento para cada grupo. 
+						| La semana 2 y 3 el grupo A consumió alimento para insectívoros y el grupo B alimento para gatos en crecimiento. 
+						| Durante la semana 4 se realizó la  transición para el intercambio de los alimentos, de forma tal que en la semana 5 y 6 el grupo A 
+						| consumía alimento para gatitos y el grupo B para insectívoros. (Figura 3)
+
+
+
+				.small-12.columns
+
+					<hr>
+
+					center
+							ul.example-orbit-content(data-orbit='data-orbit')
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto26.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 2. Adaptación general de las jaulas
+
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto27.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 3. Sujetos experimentales de ambos tratamientos
+ 
+
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto28.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 4. Pesaje diario del alimento
+
+					p
+						
+						| La colecta de muestras de excretas se realizó dos veces al día directamente de cada jaula o del espacio dedicado 
+						| a las caminatas, obteniendo un pool semanal p or erizo,  de forma que al final se recolectaron 4 muestras 
+						| por cada erizo (dos por tratamiento). 
+
+					p
+						| En cuanto a las muestras de espinas se recolectaron diariamente de las jaulas de alojamiento y del área de recreo 
+						| destinada para cada animal obteniendo un pool quincenal, para que al final del estudio se lograran dos muestras 
+						| por animal correspondientes a cada una de las dietas utilizadas.
+
+ 
+			
+			.row.hide-for-portrait
+				.large.medium-6.small-12.columns
+
+					<hr>
+
+						
+					p 
+
+						| Se han buscado diversas alternativas no invasivas para evaluar el estado nutricional de los animales, dentro de ellas, 
+						| el uso de pelo como un reflejo de la cinética de los elementos minerales. Al ser las espinas del erizo un tipo de pelo 
+						| modificado que se encuentra en constante crecimiento, podrían funcionar como una herramienta para evaluar excesos o deficiencias 
+						| de estos elementos aportados por la dieta.
+
+					p
+						| El presente estudio tuvo como objetivo determinar la digestibilidad aparente de elementos minerales así como su concentración en 
+						| las espinas de erizos pigmeos africanos, empleando como dietas base alimento formulado para insectívoros y alimento formulado para 
+						| gatos en crecimiento
+
+					p
+
+						| Se emplearon 6 erizos pigmeos africanos de 2 años de edad, clínicamente sanos. Se alojaron en jaulas individuales con medidas de 
+						| 60 x 32  x 30 cm. equipadas con, un plato de cerámica para la comida, un bebedero tipo tolva, cama biodegradable absorbente y ruedas 
+						| de ejercicio como parte del enriquecimiento ambiental. (Figura 2)
+
+					p
+						| Los animales se dividieron en dos grupos de forma aleatoria (grupo A y grupo B), para la realización de un estudio estadístico cruzado 
+						| tipo AB/BA. La fase de campo fue de 6 semanas, la primera semana consistió en el periodo de adaptación al nuevo alimento para cada grupo. 
+						| La semana 2 y 3 el grupo A consumió alimento para insectívoros y el grupo B alimento para gatos en crecimiento. 
+						| Durante la semana 4 se realizó la  transición para el intercambio de los alimentos, de forma tal que en la semana 5 y 6 el grupo A 
+						| consumía alimento para gatitos y el grupo B para insectívoros. (Figura 3)
+
+
+
+ 
+
+					
+				.large.medium-6.small-12.columns
+
+					<hr>
+
+					center
+							ul.example-orbit-content(data-orbit='data-orbit')
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto26.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 2. Adaptación general de las jaulas
+
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto27.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 3. Sujetos experimentales de ambos tratamientos
+ 
+
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto28.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 4. Pesaje diario del alimento
+
+					p
+						
+						| La colecta de muestras de excretas se realizó dos veces al día directamente de cada jaula o del espacio dedicado 
+						| a las caminatas, obteniendo un pool semanal p or erizo,  de forma que al final se recolectaron 4 muestras 
+						| por cada erizo (dos por tratamiento). 
+
+					p
+						| En cuanto a las muestras de espinas se recolectaron diariamente de las jaulas de alojamiento y del área de recreo 
+						| destinada para cada animal obteniendo un pool quincenal, para que al final del estudio se lograran dos muestras 
+						| por animal correspondientes a cada una de las dietas utilizadas.
+
+
+					
+			//- comienza pagina 4
+  
+
+			.row.hide-for-landscape
+
+				.small-12.columns
+
+				<hr>
+
+				p 
+					| A la par se obtuvieron muestras aleatorias de alimento para determinar cada elemento mineral a evaluar. Para tal fin, 
+					| se homogenizo el total de los lotes de cada alimento, para posteriormente obtener una muestra correspondiente a 15 gramos de cada uno de ellos.”
+
+				p
+					| Se realizó digestión abierta con ácidos (perclórico y nítrico) del alimento, las excretas y las espinas para la determinación 
+					| de partes por millón de elemento mineral mediante espectrofotometría de absorción atómica con flama para calcio, magnesio, cobre, hierro y zinc, 
+					| espectrofotometría de emisión atómica para potasio y colorimétricamente por espectrofotometría de luz visible para el fósforo utilizando el reactivo 
+					| molibdovanadato. (Figura 5)
+
+				p
+					| Se realizó digestión abierta con ácidos (perclórico y nítrico) del alimento, las excretas y las espinas para la determinación de partes por millón 
+					| de elemento mineral mediante espectrofotometría de absorción atómica con flama para calcio, magnesio, cobre, hierro y zinc, espectrofotometría de 
+					| emisión atómica para potasio y colorimétricamente por espectrofotometría de luz visible para el fósforo utilizando el reactivo molibdovanadato. (Figura 5)
+
+
+				.small-12.columns
+
+					<hr>
+
+					center
+							ul.example-orbit-content(data-orbit='data-orbit')
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto29.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 2. Adaptación general de las jaulas
+
+
+				
 
 			.row.hide-for-portrait
 
 				.large.medium-6.small-12.columns
 
+					<hr>
+
+					p 
+						| A la par se obtuvieron muestras aleatorias de alimento para determinar cada elemento mineral a evaluar. Para tal fin, 
+						| se homogenizo el total de los lotes de cada alimento, para posteriormente obtener una muestra correspondiente a 15 gramos de cada uno de ellos.”
+
+					p
+						| Se realizó digestión abierta con ácidos (perclórico y nítrico) del alimento, las excretas y las espinas para la determinación 
+						| de partes por millón de elemento mineral mediante espectrofotometría de absorción atómica con flama para calcio, magnesio, cobre, hierro y zinc, 
+						| espectrofotometría de emisión atómica para potasio y colorimétricamente por espectrofotometría de luz visible para el fósforo utilizando el reactivo 
+						| molibdovanadato. (Figura 5)
+
+					p
+						| Se realizó digestión abierta con ácidos (perclórico y nítrico) del alimento, las excretas y las espinas para la determinación de partes por millón 
+						| de elemento mineral mediante espectrofotometría de absorción atómica con flama para calcio, magnesio, cobre, hierro y zinc, espectrofotometría de 
+						| emisión atómica para potasio y colorimétricamente por espectrofotometría de luz visible para el fósforo utilizando el reactivo molibdovanadato. (Figura 5)
+
+
+
 				.large.medium-6.small-12.columns
 
+					<hr>
+
+					center
+							ul.example-orbit-content(data-orbit='data-orbit')
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto29.jpg", alt="", width="100%")
+									.orbit-caption 
+													| Figura 2. Procesamiento de las muestras (heces y espinas)
+
+
+
+
+
+
+					
+			//- comienza pagina 5
+   
+
+			.row.hide-for-landscape
+
+				.small-12.columns
+
+					<hr>
+
+					p
+						| Los elementos minerales encontrados en los alimentos se muestran en el cuadro 1:
+
+					center
+						ul.example-orbit-content(data-orbit='data-orbit')
+							li(data-orbit-slide='headline-1')
+								div
+								img(src="static/video/foto30.png", alt="", width="100%")
+
+					p
+						| En el cuadro 2 se resume el consumo promedio diario de alimento y de elementos minerales por erizo:
+
+					p
+						| Se encontraron diferencias estadísticamente significativas entre las dietas en el consumo promedio de calcio y cobre, 
+						| siendo mayores cuando los animales consumieron alimento para insectívoros, que cuando consumieron dieta para gatos en crecimiento.
+
+
+					
+				.small-12.columns
+
+					<hr>
+
+					p
+						| En el cuadro 3 presentan los resultados obtenidos para la digestibilidad aparente de elemento minerales. 
+
+					center
+							ul.example-orbit-content(data-orbit='data-orbit')
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto31.png", alt="", width="100%")
+
+
+			
+			.row.hide-for-portrait
+
+				.large.medium-6.small-12.columns
+
+					<hr>
+
+					p
+						| Los elementos minerales encontrados en los alimentos se muestran en el cuadro 1:
+
+					center
+							ul.example-orbit-content(data-orbit='data-orbit')
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto30.png", alt="", width="100%")
+
+					p
+						| En el cuadro 2 se resume el consumo promedio diario de alimento y de elementos minerales por erizo:
+
+					p
+						| Se encontraron diferencias estadísticamente significativas entre las dietas en el consumo promedio de calcio y cobre, 
+						| siendo mayores cuando los animales consumieron alimento para insectívoros, que cuando consumieron dieta para gatos en crecimiento.
+
+
+
+					
+
+				.large.medium-6.small-12.columns
+
+					<hr>
+
+					p
+						| En el cuadro 3 presentan los resultados obtenidos para la digestibilidad aparente de elemento minerales. 
+
+					center
+							ul.example-orbit-content(data-orbit='data-orbit')
+								li(data-orbit-slide='headline-1')
+									div
+									img(src="static/video/foto31.png", alt="", width="100%")
+
+
+			
+
+				
+
+			//- comienza pagina 6
+  
+
+			.row.hide-for-landscape
+
+				.small-12.columns
+
+					<hr>
+
+					p
+						| En cuanto a la digestibilidad aparente de elementos minerales se encontró una diferencia estadísticamente significativa 
+						| (p<0.05) para cobre y hierro. Los resultados sugieren un antagonismo entre los mismos, ya que mientras la digestibilidad 
+						| de uno aumenta, la del otro disminuye y viceversa. Esto se explica por dos razones principales, la primera es que ambos 
+						| elementos minerales compiten por el mismo sitio de absorción y la segunda es que su absorción depende del pH intestinal, 
+						| siendo el hierro quien se absorbe mejor en un pH más ácido y el cobre en un pH más básico.
+
+					p
+						| En base a este comportamiento digestivo, al final del estudio, el cobre tuvo una digestibilidad aparente mejor que el hierro 
+						| cuando los erizos consumieron alimento para insectívoro, en contra de lo observado cuando consumieron alimento para gatitos, 
+						| donde la digestibilidad aparente del hierro fue mejor que para los erizos que consumieron alimento para insectívoros.
+
+					p
+						| El contenido de elementos minerales en las espinas de erizos pigmeos africanos se muestra en el Cuadro 4:
+
+
+					p
+						| Se encontró una diferencia estadísticamente significativa entre dietas en el contenido promedio de calcio en espinas, 
+						| siendo mayor su deposición cuando los erizos consumieron alimento para gato en crecimiento que cuando consumieron alimento 
+						| para insectívoro. A pesar de que el promedio diario de consumo de este elemento mineral fue menor cuando los animales consumieron 
+						| alimento para gato, la mayor deposición en espinas puede sugerir el desarrollo de ciertas condiciones gastrointestinales, 
+						| que permitieron una mejor de absorción y digestión del mismo al utilizar  esta dieta.
+
+ 
+
+				.small-12.columns
+
+					<hr>
+
+					center
+						ul.example-orbit-content(data-orbit='data-orbit')
+							li(data-orbit-slide='headline-1')
+								div
+								img(src="static/video/foto32.png", alt="", width="100%")
+					
 		
+			.row.hide-for-portrait
+
+				.large.medium-6.small-12.columns
+
+					<hr>
+
+					p
+						| En cuanto a la digestibilidad aparente de elementos minerales se encontró una diferencia estadísticamente significativa 
+						| (p<0.05) para cobre y hierro. Los resultados sugieren un antagonismo entre los mismos, ya que mientras la digestibilidad 
+						| de uno aumenta, la del otro disminuye y viceversa. Esto se explica por dos razones principales, la primera es que ambos 
+						| elementos minerales compiten por el mismo sitio de absorción y la segunda es que su absorción depende del pH intestinal, 
+						| siendo el hierro quien se absorbe mejor en un pH más ácido y el cobre en un pH más básico.
+
+					p
+						| En base a este comportamiento digestivo, al final del estudio, el cobre tuvo una digestibilidad aparente mejor que el hierro 
+						| cuando los erizos consumieron alimento para insectívoro, en contra de lo observado cuando consumieron alimento para gatitos, 
+						| donde la digestibilidad aparente del hierro fue mejor que para los erizos que consumieron alimento para insectívoros.
+
+					p
+						| El contenido de elementos minerales en las espinas de erizos pigmeos africanos se muestra en el Cuadro 4:
 
 
+					p
+						| Se encontró una diferencia estadísticamente significativa entre dietas en el contenido promedio de calcio en espinas, 
+						| siendo mayor su deposición cuando los erizos consumieron alimento para gato en crecimiento que cuando consumieron alimento 
+						| para insectívoro. A pesar de que el promedio diario de consumo de este elemento mineral fue menor cuando los animales consumieron 
+						| alimento para gato, la mayor deposición en espinas puede sugerir el desarrollo de ciertas condiciones gastrointestinales, 
+						| que permitieron una mejor de absorción y digestión del mismo al utilizar  esta dieta.
+
+ 
+
+					
 
 
+				.large.medium-6.small-12.columns
+
+					<hr>
+
+					center
+						ul.example-orbit-content(data-orbit='data-orbit')
+							li(data-orbit-slide='headline-1')
+								div
+								img(src="static/video/foto32.png", alt="", width="100%")
+					
+
+					
+			//- comienza pagina 7
+
+
+			.row.hide-for-landscape
+
+				.small-12.columns
+
+					<hr>
+
+					strong Difusion
+
+					br
+					br
+
+					p
+						| Debido a que durante la fase experimental ninguno de los animales presento signos clínicos compatibles con enfermedad, 
+						| se puede concluir que el alimento para gatitos es una alternativa viable de alimentación a corto plazo cuando no se 
+						| cuente con el alimento para insectívoros.
+
+					p
+						| Dado que existe el riesgo de una manifestación de toxicidad ante el consumo excesivo de hierro o de cobre, es importante 
+						| considerar la realización de estudios que evalúen efectos adversos de estos elementos minerales a largo plazo, así como la 
+						| valoración del pH intestinal con las diferentes dietas.
+
+					p 
+						| Al encontrarse una mayor concentración de calcio en las espinas cuando se consumió el alimento para gato en crecimiento se 
+						| puede deducir que estas pueden mostrar la deposición de este elemento y por tanto ser reflejo del exceso de calcio dietario, 
+						| lo cual puede sugerir, dependiendo de la cantidad y el tiempo que se consuma, la acumulación de este mineral en otras partes 
+						| del organismo del animal; por lo que es importante considerar la realización de una investigación integral de la cinética del 
+						| calcio en erizo bajo las condiciones de pH y contenido del mineral en la dieta.
+
+					p
+						| Otra consideración en estudios futuros, es la etapa de vida de los animales, realizando posibles pruebas en erizos en crecimiento o  
+						| en gerontes.
 
 
 
@@ -1708,12 +2245,113 @@
 
 
 					
+				.small-12.columns
+
+					<hr>
+
+					blockquote
+
+						strong Referencias
+						br
+						br
+						
+						p 
+							| .Flores RE: Manual para el manejo veterinario del erizo pigmeo africano (Atelerix albiventris) en cautiverio: estudio Recapitulativo 
+							|  (tesis de licenciatura). México (DF): Facultad de Medicina Veterinaria y Zootecnia, Universidad Nacional Autónoma de México, 2006.
+
+
+
+							
+						p 
+
+							| .Wilson DE, Reeder DM editors: Mammal’s species of the world: A taxonomic and geographic reference, 3 rd ed., Baltimore (Maryland): 
+							|  The Johnson Hopkins University Press, 2005.
+
+						p
+							| .Rupley AE, Greenacre CB: Feeding Behavior and Nutrition of the African Pygmy Hedgehog (Atelerix albiventris). Veterinary clinics of 
+							| North America: Exot Anim Pract 2009; 12: 335-337 
+
+
+						p
+							| .Aguilar R.F, Hernández SM, Divers SJ, Perpiñán D : Atlas de medicina de animales exóticos. 1st ed. Buenos Aires (Argentina): Inter- Médica, 2010.”
+
+
+					
+
+	
+
+			.row.hide-for-portrait
+
+				.large.medium-6.small-12.columns
+
+					<hr>
+
+					strong Difusion
+
+					br
+					br
+
+					p
+						| Debido a que durante la fase experimental ninguno de los animales presento signos clínicos compatibles con enfermedad, 
+						| se puede concluir que el alimento para gatitos es una alternativa viable de alimentación a corto plazo cuando no se 
+						| cuente con el alimento para insectívoros.
+
+					p
+						| Dado que existe el riesgo de una manifestación de toxicidad ante el consumo excesivo de hierro o de cobre, es importante 
+						| considerar la realización de estudios que evalúen efectos adversos de estos elementos minerales a largo plazo, así como la 
+						| valoración del pH intestinal con las diferentes dietas.
+
+					p 
+						| Al encontrarse una mayor concentración de calcio en las espinas cuando se consumió el alimento para gato en crecimiento se 
+						| puede deducir que estas pueden mostrar la deposición de este elemento y por tanto ser reflejo del exceso de calcio dietario, 
+						| lo cual puede sugerir, dependiendo de la cantidad y el tiempo que se consuma, la acumulación de este mineral en otras partes 
+						| del organismo del animal; por lo que es importante considerar la realización de una investigación integral de la cinética del 
+						| calcio en erizo bajo las condiciones de pH y contenido del mineral en la dieta.
+
+					p
+						| Otra consideración en estudios futuros, es la etapa de vida de los animales, realizando posibles pruebas en erizos en crecimiento o  
+						| en gerontes.
+
 
 
 
 
 					
+				.large.medium-6.small-12.columns
 
+					<hr>
+
+					blockquote
+
+						strong Referencias
+						br
+						br
+						
+						p 
+							| .Flores RE: Manual para el manejo veterinario del erizo pigmeo africano (Atelerix albiventris) en cautiverio: estudio Recapitulativo 
+							|  (tesis de licenciatura). México (DF): Facultad de Medicina Veterinaria y Zootecnia, Universidad Nacional Autónoma de México, 2006.
+
+
+
+							
+						p 
+
+							| .Wilson DE, Reeder DM editors: Mammal’s species of the world: A taxonomic and geographic reference, 3 rd ed., Baltimore (Maryland): 
+							|  The Johnson Hopkins University Press, 2005.
+
+						p
+							| .Rupley AE, Greenacre CB: Feeding Behavior and Nutrition of the African Pygmy Hedgehog (Atelerix albiventris). Veterinary clinics of 
+							| North America: Exot Anim Pract 2009; 12: 335-337 
+
+
+						p
+							| .Aguilar R.F, Hernández SM, Divers SJ, Perpiñán D : Atlas de medicina de animales exóticos. 1st ed. Buenos Aires (Argentina): Inter- Médica, 2010.”
+
+
+
+
+		
 					
 
 			
+		
